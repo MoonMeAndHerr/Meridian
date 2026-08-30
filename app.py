@@ -234,6 +234,7 @@ st.markdown("---")
 st.subheader("3. Skill-Level Mismatch by Economic Sector")
 st.markdown(f"*(Currently averaging data from {selected_years[0]} to {selected_years[1]} based on Timeline Filter)*")
 
+
 selected_mismatch_sector = st.selectbox("🏢 Select Sector to Analyze Skill Demand:", options=df_mismatch_avg['Sector'].unique())
 df_mismatch_sector = df_mismatch_avg[df_mismatch_avg['Sector'] == selected_mismatch_sector]
 
