@@ -1,6 +1,6 @@
 # MERIDIAN: Mapping Skill Mismatches & Nowcasting Economic Vulnerability in Pahang
 
-[![Competition](https://img.shields.io/badge/Competition-DAX_Challenge_2026-blue.svg)](https://ump.edu.my)
+[![Competition](https://img.shields.io/badge/Competition-DAX_Challenge_2026-blue.svg)](https://dax.umpsa.edu.my/)
 [![Track](https://img.shields.io/badge/Domain-Economy_(DOSM)-teal.svg)]()
 [![Target](https://img.shields.io/badge/Focus-Negeri_Pahang-gold.svg)]()
 
