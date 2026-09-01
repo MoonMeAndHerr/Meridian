@@ -413,9 +413,10 @@ with tab4:
     with math_col2:
         st.markdown("""
         **2. Spatial Clustering (Tab 2)**
-        * **K-Means Algorithm ($k=3$):** Minimizes variance to group districts by financial severity.
+        * **K-Means Algorithm:** Minimizes variance to group districts by financial severity:
             $$\\arg\\min_S \\sum_{i=1}^{k} \\sum_{x \\in S_i} ||x - \\mu_i||^2$$
-        * **Centroids ($\\mu_i$):** Represents the exact mathematical center of gravity for Stable, Squeezed, and Critical zones.
+        * **Why k=3?:** Validated empirically via the **Elbow Method (WCSS minimization)** as the optimal inflection point, partitioning districts into three actionable tiers: **Stable (Green)**, **Squeezed (Yellow)**, and **Critical (Red)**.
+        * **Centroids ($\\mu_i$):** Represents the exact mathematical center of gravity for each risk tier.
         """)
     with math_col3:
         st.markdown("""
